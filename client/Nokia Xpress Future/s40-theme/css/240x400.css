@@ -1,0 +1,113 @@
+.ss-title {
+	height: 43px;
+	font-size: medium;
+}
+.startBlock {
+	width: 228px;
+	height: 80px;
+	}	
+/*
+.s3title {
+	margin-top: 68px;
+}
+
+*/
+.s3image {
+	width: 30px;
+	height: 35px;
+	margin: -38px 0px 0px 198px;
+	padding: 0px;
+	} 
+.filters-button {
+	font-size: large;
+	color: #404040;
+	margin: -320px 0 0 207px;	
+	height: 40px;
+}
+
+.ui-window-page-content, #option-menu-container, #menu-items, #entries, .fixedheight, .width240, #verview, #horview, #content-area{
+	height: 258px !important;
+}
+
+#terms-conditions{
+	height: 320px !important;
+}
+
+.entry-view{
+	height: 274px !important;
+	overflow: scroll;
+}
+
+#option-menu-status-bar{
+	margin-top: -300px;
+}
+
+
+.ui-vertical-scroll {
+	height: 233px;
+	overflow: scroll;
+}
+.ui-window-page{
+	overflow: hidden;
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 240px !important;
+}
+
+#verview-container{
+	height: 210px !important;
+	overflow: scroll;
+}
+
+.ui-nokia-now-header{
+	font-size: medium;
+	color: #29A7CC;
+	padding: 23px 0px 5px 30px;
+}
+.full-story-text{
+	color: #1B75BB;
+	display: inline-block;
+	float: left;
+	margin-top:-2px;
+}
+#terms-conditions-agreement {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top:10px;
+	color: #5A5A5A;
+}
+
+#terms-conditions-agreement a{
+		color: #29A7CC;
+		text-decoration: none;
+	}
+.ui-window-message-tc{
+	font-size: 16px;
+	color: gray;
+	height: 70px;
+	margin-top: 15px;
+	text-align: left;
+	}
+.ui-window-message-tc1{
+	font-size: 16px;
+	color: gray;
+	height: 70px;
+	margin-top: -10px;
+	text-align: left;
+	}
+.ui-window-accept-wrapper{
+	padding: 0px 40px;
+	margin-top: 30px;
+}
+
+.s3{
+	width: 228px;
+	height: 111px;
+}
+
+.ui-window-toolbar{
+	width: 240px;
+	background-color: #000000;
+	overflow: hidden;
+	height: 40px;
+}

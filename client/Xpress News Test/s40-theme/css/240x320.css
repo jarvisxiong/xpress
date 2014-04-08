@@ -1,0 +1,133 @@
+.ss-title {
+	/*height: 43px;*/
+	font-size: medium;
+	padding-bottom:2px;
+}
+.startBlock {
+	width: 228px;
+	height: 80px;
+	}	
+/*
+.s3title {
+	margin-top: 68px;
+}
+
+*/
+.s3image {
+	width: 30px;
+	height: 35px;
+	margin: -38px 0px 0px 198px;
+	padding: 0px;
+	} 
+.filters-button {
+	font-size: large;
+	color: #404040;
+	margin: -320px 0 0 207px;	
+	height: 40px;
+}
+
+.ui-window-page-content, #option-menu-container, #menu-items, #entries, .fixedheight, .width240, #verview, #horview, #content-area{
+	height: 279px !important;
+}
+
+#terms-conditions{
+	height: 320px !important;
+}
+
+.entry-view{
+	/*height: 274px !important;*/
+	height:284px;
+	overflow: scroll;
+}
+
+#option-menu-status-bar{
+	margin-top: -320px;
+}
+
+
+.ui-vertical-scroll {
+	height: 233px;
+	overflow: scroll;
+}
+.ui-window-page{
+	overflow: hidden;
+	margin: 0px !important;
+	padding: 0px !important;
+	width: 240px !important;
+	height: 320px !important;
+}
+
+#verview-container{
+	height:232px;
+	overflow: scroll;
+}
+
+.ui-nokia-now-header{
+	font-size: medium;
+	color: #29A7CC;
+	padding: 23px 0px 5px 30px;
+}
+.full-story-text{
+	color: #1B75BB;
+	display: inline-block;
+	float: left;
+	margin-top:-2px;
+}
+#terms-conditions-agreement {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top:10px;
+	color: #5A5A5A;
+}
+
+#terms-conditions-agreement a{
+		color: #29A7CC;
+		text-decoration: none;
+	}
+.ui-window-message-tc{
+	font-size: 16px;
+	color: gray;
+	height: 70px;
+	margin-top: 15px;
+	text-align: left;
+	}
+.ui-window-message-tc1{
+	font-size: 16px;
+	color: gray;
+	height: 70px;
+	margin-top: -10px;
+	text-align: left;
+	}
+.ui-window-accept-wrapper{
+	padding: 0px 40px;
+	margin-top: 30px;
+}
+
+.ui-window-toolbar{
+	width: 240px;
+	background-color: #000000;
+	overflow: hidden;
+	z-index:1000;
+}
+
+.s2titleImage {
+	margin-top: 79px;
+	padding: 2px 0px 8px 7px;
+	color: #fff;
+	height: 36px;
+	background-image: url("../images/KS_BM_text_labels_small_oneline.png");
+	background-size: 108px 24px;
+	background-repeat: repeat-x;
+	/*font-weight: bold;*/
+	text-align: left;
+}
+
+.full-story-link{
+	padding: 9px 5px 5px 4px;
+	margin-bottom: 25px;
+	margin-left: 9px;
+	height: 20px;
+	background-color: #A6A8AB;
+	width: 120px;
+	display: inline-block;
+}

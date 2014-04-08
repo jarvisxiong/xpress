@@ -1,0 +1,12 @@
+		<!--  ERROR PAGE -->
+		<div id="error-page" class="ui-window-page">
+			<div class="ui-window-page-wrapper">
+				<div class="ui-window-message" style="padding-top:78px; height: 30px;">
+					<div><#=id_pageLoadError#></div>
+				</div>
+				<div class="ui-window-button-wrapper">
+					<button class="ui-window-button positive-action" onclick="mwl.switchClass('#error-page', 'show', 'hide'); mwl.switchClass('#containerid', 'hide', 'show'); Kismet.setStoriesListAndDetailView();"><#=id_tryAgain#></button>
+					<button id="errorPage_SettingsBtn" class="ui-window-button <#=className#>" onclick="mwl.switchClass('#error-page', 'show', 'hide'); mwl.switchClass('#settings-page', 'hide', 'show'); showPage('Settings');"><#=id_errorMsg_settings_button#></button>
+				</div>
+			</div>
+		</div>

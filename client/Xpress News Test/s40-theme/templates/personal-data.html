@@ -1,0 +1,22 @@
+		<!--  CLEAR PERSONAL DATA -->
+		<div id="personal-data" class="ui-window-page">
+			<div class="ui-window-page-content">
+				<div class="ui-window-header"><#=id_clearPersonalDataTitle#></div>
+				<div class="ui-window-page-wrapper">
+					<div style="text-align:center;"><#=id_clearPersonalDataDesc#></div>
+					<div class="ui-window-button-wrapper"> 
+						<button class="ui-window-button positive-action" onclick="mwl.switchClass('#options-menu', 'hide', 'show'); mwl.switchClass('#personal-data', 'show', 'hide'); mwl.switchClass('#option-menu-status-bar', 'hide', 'show'); mwl.insertHTML('#option-menu-status-bar', '<#=id_clearPersonalDataNotification#>'); clearPersonalData(); mwl.timer('ClearPersonalData', 5000, 1, 'mwl.switchClass('#option-menu-status-bar', 'show', 'hide')');"><#=id_reset#></button>
+					</div>				
+				</div>
+			</div>
+
+			<div class="ui-window-toolbar">
+				<div class="center-btn">
+					&nbsp;
+				</div>
+
+				<div class="right-btn">
+					<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46"  onclick="mwl.switchClass('#personal-data', 'show', 'hide'); mwl.switchClass('#options-menu', 'hide', 'show');" />
+				</div>
+			</div>
+		</div>

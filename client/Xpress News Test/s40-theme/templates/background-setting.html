@@ -1,0 +1,28 @@
+<!--  SETTING VIEW BACKGROUND COLOR -->
+<div id="background-setting" class="ui-window-page">
+	<div class="ui-window-page-content">
+		<div class="ui-window-header"><#=id_bgcolor_setting#></div>
+		<div class="setting-content">
+			<ul>
+				<li id='default' onclick="settingBackgroundColor('default',this)"><#=id_default#></li>
+				<li id='black' onclick="settingBackgroundColor('black',this)"><#=id_black#></li>
+				<li id='blue' onclick="settingBackgroundColor('blue',this)"><#=id_blue#></li>
+				<li id='gray' onclick="settingBackgroundColor('gray',this)"><#=id_gray#></li>
+				<li id='green' onclick="settingBackgroundColor('green',this)"><#=id_green#></li>
+				<li id='yellow' onclick="settingBackgroundColor('yellow',this)"><#=id_yellow#></li>
+				<li id='red' onclick="settingBackgroundColor('red',this)"><#=id_red#></li>
+				<li id='cyan' onclick="settingBackgroundColor('cyan',this)"><#=id_cyan#></li>
+			</ul>			
+		</div>
+	</div>
+
+	<div class="ui-window-toolbar">
+		<div class="center-btn">
+			&nbsp;
+		</div>
+
+		<div class="right-btn">
+			<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46" onclick="mwl.switchClass('#background-setting', 'show', 'hide');mwl.switchClass('#options-menu', 'hide', 'show');" />
+		</div>
+	</div>
+</div>

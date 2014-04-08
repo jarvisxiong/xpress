@@ -1,0 +1,15 @@
+		<!--  TERMS AND CONDITIONS -->
+		<div id="terms-conditions" class="ui-window-page show">
+			<div class="ui-window-page-wrapper">
+				<div class="ui-window-header" ><img src="s40-theme/images/logo-nokia-xpress-now-beta.png" alt="Nokia Xpress Now Beta" /></div>
+					<div class="ui-window-message-tc"><#=id_termsDescA#></div>
+					<div class="ui-window-message-tc1"><#=id_termsDescB#></div>
+					<div id="terms-conditions-agreement"><#=id_readAndAccept#>
+						<a onclick="mwl.loadURL('http://nokia.mobi/privacy/services/terms/nokia-service');"><#=id_serviceTerms#></a> <#=id_and#>
+						<a onclick="mwl.loadURL('http://nokia.mobi/privacy/policy');"><#=id_PrivacyPolicy#></a>
+					</div>
+					<div class="ui-window-accept-wrapper">
+						<button class="ui-window-button positive-action" onclick="mwl.switchClass('#terms-conditions', 'show', 'hide'); mwl.switchClass('#containerid', 'hide', 'show'); setAcceptTermAndCondition();"><#=id_accept_button#></button>
+					</div>
+			</div>
+		</div>

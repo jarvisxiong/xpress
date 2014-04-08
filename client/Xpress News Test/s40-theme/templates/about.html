@@ -1,0 +1,20 @@
+		<!--  ABOUT PAGE -->
+		<div id="about-page" class="ui-window-page">
+			<div class="ui-window-page-content">
+				<div class="ui-window-header"><#=id_aboutTitle#></div>
+				<div class="ui-window-page-wrapper">
+					<div><#=id_read#> <a onclick="mwl.loadURL('http://nokia.mobi/privacy/services/terms/nokia-service');"><#=id_serviceTerms#></a> <#=id_and#> <a onclick="mwl.loadURL('http://nokia.mobi/privacy/policy');"><#=id_PrivacyPolicy#></a></div>
+							<div class="about-version"><#=id_aboutVer#> <#=id_appVersion#></div>
+				</div>			
+			</div>	
+			
+			<div class="ui-window-toolbar">
+				<div class="center-btn">
+					&nbsp;
+				</div>
+
+				<div class="right-btn">
+					<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46" onclick="mwl.switchClass('#about-page', 'show', 'hide');mwl.switchClass('#options-menu', 'hide', 'show');" />
+				</div>
+			</div>
+		</div>

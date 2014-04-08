@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+xmlns:NOKIA="http://www.ovi.com/widgetservice"
+        id="http://XpressNewsTest"
+        version="2.0.0">
+
+    <name short="Xpress Now">XpressNewsTest</name>    
+
+    <description>Kaleidoscope</description>
+
+    <content src="index.html"/>
+    
+    <icon src="icon.png"/>
+                
+    <preference name="acceptTC" value="NO" readonly="false"/>
+    <preference name="analyticsFirstUse" value="false" />
+    <preference name="analyticsAllowed" value="true" />
+
+    <preference name="debugServer" value="" readonly="false"/>
+    <preference name="debugCountryCode" value="" readonly="false"/>
+    <preference name="debugDeviceID" value="bob" readonly="false"/>
+    <preference name="debugLog" value="0" readonly="false"/>
+
+    <preference name="nokiaAdsUserID" value="" readonly="false" />
+    <preference name="nokiaAdsSource" value="nokia" readonly="false" />
+    <preference name="accessLocationAllowed" value="false" readonly="true" />
+    <preference name="Filter2_highlightFlag" value="show"/>
+
+    <author email="jack.lai@nokia.com" href="http://www.nokia.com">
+       Jack Lai,  Raghava BC
+    </author>
+    
+    <license>
+	   Copyright Nokia Corp, 2013.
+    </license>
+    
+   	<feature name="nokia://s40.nokia.com/SAWRT/2.3" required="true" />
+</widget>

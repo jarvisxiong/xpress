@@ -1,0 +1,38 @@
+		<!--  SETTINGS PAGE -->
+		<div id="settings-page" class="ui-window-page">
+			<div class="ui-window-page-content scrollview" data-scrollbar="yes">
+				<div class="ui-window-header">Settings</div>
+				<div class="ui-window-page-wrapper">
+					<div class="fieldset">
+						<div class="label">Country Code</div>
+						<input type="text" id="inputCountryCode" />
+					</div>
+
+					<div class="fieldset">
+						<div class="label">Device ID</div>
+						<input type="text" id="inputDeviceID" />
+					</div>
+					
+					<div class="fieldset">
+						<div class="label">Server</div>
+						<div id="serverListings"></div>
+					</div>
+
+					<div class="fieldset">
+						<div class="label">Log tile</div>
+						<div><input type="checkbox" id="enableLogTile" value="1"> Enabled</div>
+					</div>
+					<input type="button" value="Save" class="button" onclick="mwl.switchClass('#settings-page', 'show', 'hide'); mwl.switchClass('#containerid', 'hide', 'show');  mwl.duplicate('#loading-div', '#verview-container'); mwl.switchClass('#toolbar-1', 'show', 'hide'); mwl.switchClass('#toolbar-3', 'hide', 'show'); saveSettings();"/>&nbsp;<input type="button" value="Reset" class="button" onclick="mwl.switchClass('#settings-page', 'show', 'hide'); mwl.switchClass('#containerid', 'hide', 'show');  mwl.duplicate('#loading-div', '#verview-container'); mwl.switchClass('#toolbar-1', 'show', 'hide'); mwl.switchClass('#toolbar-3', 'hide', 'show'); resetSettings();" />
+				</div>			
+			</div>	
+
+			<div class="ui-window-toolbar">
+				<div class="center-btn">
+					&nbsp;
+				</div>
+
+				<div class="right-btn">
+					<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46" onclick="mwl.switchClass('#settings-page', 'show', 'hide'); mwl.switchClass('#options-menu', 'hide', 'show');" />
+				</div>
+			</div>
+		</div>

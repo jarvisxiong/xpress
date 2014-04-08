@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>	
+		<link rel="icon" type="image/png" href="s40-theme/images/APP_EXPLORE.png" /> 
+		<title data-lang="id_appName">热点快报</title>
+
+		<link href="s40-theme/css/kismet.css" rel="stylesheet" type="text/css" />
+		 <script type="text/javascript">
+			var dm=""+navigator.deviceModel;
+			//dm="C2-02";
+			if ( dm == "501" || dm == "501s" || dm == "undefined" || dm == "C2-02" || dm == "C2-06") {
+				resolution="240x320";
+			}else if(dm=="3090" || dm=="3080" || dm=="3050"){
+				resolution="240x400";
+			}else{
+				resolution="240x310";
+			}
+			document.write('<link rel="stylesheet" href="s40-theme/css/'+resolution+'.css" type="text/css" />');
+		</script>	
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script type="text/javascript" src="s40-theme/js/source/stub.js"></script>
+		<script type="text/javascript" src="s40-theme/js/jquery-1.4.4.min.js"></script>
+		<script type="text/javascript" src="s40-theme/js/app.js"></script>
+		<script type="text/javascript" src="strings.js"></script>
+		
+    </head>
+	<!--  <body onload=" mwl.timer('LoadTimer', 1, 1, 'lazyLoad();');">-->
+	<body>
+		<!-- MAIN TIMELINE / SINGLE STORY VIEW -->		
+		<div id='containerid' class="ui-window-page show"> 	
+			<div id="content-area" class="maintimeline">
+				<div id="verview" >
+					<div id="filters-title" class="filter-fire-icon">
+						<div id='filters-title-text' data-lang="id_filterName_Filter1" class="uppercase"></div>
+
+						<!-- REMOVE THE BELOW COMMENT TO ENABLE FILTER MENU -->
+						
+					</div>
+					<div id="verview-container" data-scrollbar="no"></div>
+				</div>
+				<div id="horview" data-scrollbar="no"></div>
+			</div>
+			
+			<div class="ui-window-toolbar" id="toolbar-container" >
+				<!-- TOOLBAR-3 For delayed loading -->
+				<div id="toolbar-3" class="show">
+					<div id="ani-status-loading" data-lang="id_loading"></div>
+				</div>		
+				<!-- TOOLBAR-1 > MAIN TIMELINE -->
+				<div id="toolbar-1" class="hide">
+					<div class="center-btn">
+	 					<img id="active-toolbar-btn" src="s40-theme/images/bm-toolbar-options-button.png" width="46" height="46"  />
+
+					</div>
+	
+					<div class="right-btn">
+ 						<img id="active-reload-btn" src="s40-theme/images/bm-toolbar-reload-button.png" width="46" height="46" onclick="mwl.switchClass('#toolbar-1', 'show', 'hide'); mwl.switchClass('#toolbar-3', 'hide', 'show'); Kismet.setStoriesListAndDetailView();" />		
+					</div>
+				</div>
+
+				<!-- TOOLBAR-2 > SINGLE STORY PAGE -->
+				<div id="toolbar-2" class="hide">
+					<div id="toolbar-2-center-btn" class="center-btn"></div>
+					<div class="right-btn" id="backBtnFromSingleStory"></div>
+				</div>	
+			</div>
+		</div>
+		<div id="loading-div" class="hide">
+			<div class="loading-text" data-lang="id_loadingPageNotification"></div>
+		</div>
+		<!--  
+		<div id="device-model"></div>
+		-->
+		<script type="text/javascript">
+			window.onload=function(){
+				locale.init();
+				mwl.duplicate("#loading-div", "#verview-container");
+				checkWhetherAcceptTC(); 
+				/*var __fontsize= (_globalFontSize=="" || _globalFontSize==undefined)?(getCookie("globalFontSize")==""?"medium":getCookie("globalFontSize")):_globalFontSize;
+				settingFontSize(__fontsize, null);*/
+			}
+		</script>
+    </body>
+</html>

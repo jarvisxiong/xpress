@@ -1,0 +1,20 @@
+		<!--  FILTER MENU -->
+		 <div class="ui-window-page hide" id="filter-menu">
+			<div data-scrollbar="no" class="ui-window-page-content">
+				<div class="ui-window-header"><#=id_filterTile#></div>
+				<div id="filter-items">
+					<div id="filter-fire-icon" class="filter-fire-icon active" onclick="mwl.duplicate('#loading-div', '#verview-container'); mwl.switchClass('#containerid', 'hide', 'show'); mwl.switchClass('#filter-menu', 'show', 'hide'); mwl.switchClass('#toolbar-1', 'show', 'hide'); mwl.switchClass('#toolbar-3', 'hide', 'show'); Kismet.setFilter('WHATSHOT'); "><#=id_filterName_Filter1#></div>
+					<div id="filter-hand-icon" class="filter-hand-icon" onclick="mwl.duplicate('#loading-div', '#verview-container'); mwl.switchClass('#containerid', 'hide', 'show'); mwl.switchClass('#filter-menu', 'show', 'hide'); mwl.switchClass('#toolbar-1', 'show', 'hide'); mwl.switchClass('#toolbar-3', 'hide', 'show'); Kismet.setFilter('RECOM');"><#=id_filterName_Filter2#></div>
+				</div>
+			</div>
+
+			<div class="ui-window-toolbar">
+				<div class="center-btn">
+					&nbsp;
+				</div>
+
+				<div class="right-btn">
+					<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46" onclick="mwl.removeClass('#containerid', 'heightZero');mwl.switchClass('#containerid', 'hide', 'show');mwl.switchClass('#filter-menu', 'show', 'hide');" />
+				</div>
+			</div>	
+		</div>

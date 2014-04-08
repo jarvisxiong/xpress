@@ -1,0 +1,26 @@
+		<!--  OPTIONS MENU -->
+		<div class="ui-window-page hide" id="options-menu">
+			<div data-scrollbar="no" class="ui-window-page-content">
+				<div class="ui-window-header" style="text-align: center;"><#=id_options#></div>
+				<div id="menu-items">
+					<div onclick="mwl.loadURL('http://wapgame.tom.com/portal/pb/novarra/pb_s40_userfeeback.jsp');"><#=id_tellUsWhatYouThink#></div>
+					<div onclick="showPage('PesonalData');"><#=id_clearPersonalData#></div>
+					<!--  <div id="optionMenu_SettingsBtn" onclick="showPage('Settings');"><#=id_settings#></div>-->
+					<div onclick="showPage('About');"><#=id_about#></div>
+					<!-- AD tracking image -->
+					<img id="adTrackingImage" style="width:1px;height:1px;">
+
+				</div>
+				<div class="hide" id="option-menu-status-bar"></div>
+			</div>
+
+			<div class="ui-window-toolbar">
+				<div class="center-btn">
+					&nbsp;
+				</div>
+
+				<div class="right-btn">
+					<img src="s40-theme/images/bm-toolbar-back-button.png" width="46" height="46" onclick="mwl.removeClass('#containerid', 'heightZero');mwl.switchClass('#containerid', 'hide', 'show');mwl.switchClass('#options-menu', 'show', 'hide');" />
+				</div>
+			</div>	
+		</div>
