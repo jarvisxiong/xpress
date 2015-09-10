@@ -8,11 +8,11 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>entity</module>
-		<module>common</module>
-		<module>dao</module>
-		<module>service</module>
-		<module>timer</module>
-		<module>xpress</module>
+		<module>xpress-entity</module>
+		<module>xpress-common</module>
+		<module>xpress-dao</module>
+		<module>xpress-service</module>
+		<module>xpress-timer</module>
+		<module>xpress-web</module>
   </modules>
 </project>
